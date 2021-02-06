@@ -25,7 +25,7 @@ List of features
 https://github.com/BenJarrett/sorting-hat/blob/main/Sorting-hat-form-button-1.png
 https://github.com/BenJarrett/sorting-hat/blob/main/Sorting-hat-form-button-2.png
 
-- User can add and sort any name they would like to type in. This will create a card that contains the name and the randomized house assigned of the name enterted. 
+- User can add and sort any name they would like to type in. This will create a card that contains the name and the randomized house assigned of the name entered. 
 https://github.com/BenJarrett/sorting-hat/blob/main/sorting-hat-cards.png
 
 - User can delete any card previously created by clicking the "Expel!" button located in the individual cards.
