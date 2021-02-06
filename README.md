@@ -6,15 +6,18 @@ Overview of the project
 This project is designed to creat a dynamic and interactive page for the user. I have use Javascript, HTML, and CSS to create a dynamic app that will sort any name that a user types in. When the user activates the sort button, my Js dynamically prints a card with the user's desired name, and a random Howarts house for that user's desired name. 
 
 Link to your wireframes/prototype
+
 No wireframes were used for this project.
 
 Link to the deployed project (will learn in week 5)
 
 
 Link to your project board (yes...even though it is a part of the repo)
+
 https://github.com/BenJarrett/sorting-hat/projects/1
 
 Description of the user
+
 All Users
 
 List of features
@@ -31,9 +34,11 @@ https://github.com/BenJarrett/sorting-hat/blob/fa01b4e0c2ddb85584fb25cea5806e10f
 
 
 List of contributors and links to their GH profiles
+
 https://github.com/BenJarrett
 
 Link to Loom video walkthrough of your app (no more than 1 minute long! Make it great)
+
 https://www.loom.com/share/020cd80eb02e4081a7d178fb12a358ac
 
 Below shows the original requirement to complete this project
