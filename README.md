@@ -41,6 +41,10 @@ Link to Loom video walkthrough of your app (no more than 1 minute long! Make it 
 
 https://www.loom.com/share/020cd80eb02e4081a7d178fb12a358ac
 
+Deploy Link:
+
+https://ben-jarrett-sorting-hat.netlify.app/
+
 Below shows the original requirement to complete this project
 Technical Requirements
 You MUST plan your project and create issue tickets and a project board fro your project
