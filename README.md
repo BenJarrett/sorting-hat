@@ -2,6 +2,7 @@ Name of the Project
 Sorting-Hat
 
 Overview of the project
+
 This project is designed to creat a dynamic and interactive page for the user. I have use Javascript, HTML, and CSS to create a dynamic app that will sort any name that a user types in. When the user activates the sort button, my Js dynamically prints a card with the user's desired name, and a random Howarts house for that user's desired name. 
 
 Link to your wireframes/prototype
