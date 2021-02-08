@@ -32,8 +32,8 @@ const createStudentsCards = (taco) => {
         <button class="btn btn-primary btn-lg rounded-lg btn-outline-info form-text alert-info" id=${i}>Expel!</button>
         </div>
         </div>
-        </div>`;
-});
+    </div>`;
+  });
 
   printToDom("#studentCards", domString);
 };
@@ -47,7 +47,7 @@ const deleted = (e) => {
   const targetType = e.target.type;
   const targetId = e.target.id;
   if (targetType === "submit") {
-    studentsArr.splice(targetId);
+    studentsArr.splice(targetId, 1);
     createStudentsCards(studentsArr);
   }
 };
@@ -55,9 +55,12 @@ const deleted = (e) => {
 const handleButtonClick = (e) => {
   e.preventDefault();
   const studentName = document.querySelector("#studentName").value;
-  const studentIds = studentsArr.map((student) => student.id).sort((a, b) => a - b);
+  const studentIds = studentsArr
+    .map((student) => student.id)
+    .sort((a, b) => a - b);
   const id = studentIds.length ? studentIds[studentIds.length - 1] + 1 : 1;
-  const studentHouse =houseArray[Math.floor(Math.random() * houseArray.length)];
+  const studentHouse =
+    houseArray[Math.floor(Math.random() * houseArray.length)];
   // if (studentName.lenth === 0) {
   //   nameRequiredAlert();
   // }
@@ -74,7 +77,9 @@ const handleButtonClick = (e) => {
 };
 
 const buttonEvents = () => {
-  document.querySelector("#sortBtn").addEventListener("click", handleButtonClick);
+  document
+    .querySelector("#sortBtn")
+    .addEventListener("click", handleButtonClick);
   document.querySelector("#pleaseToggle").addEventListener("click", toggleHide);
   document.querySelector("#studentCards").addEventListener("click", deleted);
   // document.querySelector("#sortBtn"),addEventListener("click", nameRequiredAlert);
